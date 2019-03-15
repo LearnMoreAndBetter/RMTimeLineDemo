@@ -12,8 +12,6 @@
 		AE45D86E2239ECF2008B4EC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE45D86D2239ECF2008B4EC2 /* Assets.xcassets */; };
 		AE45D8712239ECF2008B4EC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE45D86F2239ECF2008B4EC2 /* LaunchScreen.storyboard */; };
 		AE45D8742239ECF2008B4EC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE45D8732239ECF2008B4EC2 /* main.m */; };
-		AE45D87E2239ECF2008B4EC2 /* TimeLineDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE45D87D2239ECF2008B4EC2 /* TimeLineDemoTests.m */; };
-		AE45D8892239ECF2008B4EC2 /* TimeLineDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE45D8882239ECF2008B4EC2 /* TimeLineDemoUITests.m */; };
 		AE45D8B6223A02B3008B4EC2 /* TimeLineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AE45D8AF223A02B3008B4EC2 /* TimeLineVC.m */; };
 		AE45D8B7223A02B3008B4EC2 /* TimeLineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE45D8B2223A02B3008B4EC2 /* TimeLineModel.m */; };
 		AE45D8B8223A02B3008B4EC2 /* TimeLineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE45D8B5223A02B3008B4EC2 /* TimeLineCell.m */; };
@@ -46,11 +44,7 @@
 		AE45D8722239ECF2008B4EC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE45D8732239ECF2008B4EC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AE45D8792239ECF2008B4EC2 /* TimeLineDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeLineDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE45D87D2239ECF2008B4EC2 /* TimeLineDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeLineDemoTests.m; sourceTree = "<group>"; };
-		AE45D87F2239ECF2008B4EC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE45D8842239ECF2008B4EC2 /* TimeLineDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeLineDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE45D8882239ECF2008B4EC2 /* TimeLineDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeLineDemoUITests.m; sourceTree = "<group>"; };
-		AE45D88A2239ECF2008B4EC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE45D8AE223A02B3008B4EC2 /* TimeLineVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeLineVC.h; sourceTree = "<group>"; };
 		AE45D8AF223A02B3008B4EC2 /* TimeLineVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeLineVC.m; sourceTree = "<group>"; };
 		AE45D8B1223A02B3008B4EC2 /* TimeLineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeLineModel.h; sourceTree = "<group>"; };
@@ -90,8 +84,6 @@
 			isa = PBXGroup;
 			children = (
 				AE45D8632239ECF1008B4EC2 /* TimeLineDemo */,
-				AE45D87C2239ECF2008B4EC2 /* TimeLineDemoTests */,
-				AE45D8872239ECF2008B4EC2 /* TimeLineDemoUITests */,
 				AE45D8622239ECF1008B4EC2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -121,24 +113,6 @@
 				AE45D8732239ECF2008B4EC2 /* main.m */,
 			);
 			path = TimeLineDemo;
-			sourceTree = "<group>";
-		};
-		AE45D87C2239ECF2008B4EC2 /* TimeLineDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				AE45D87D2239ECF2008B4EC2 /* TimeLineDemoTests.m */,
-				AE45D87F2239ECF2008B4EC2 /* Info.plist */,
-			);
-			path = TimeLineDemoTests;
-			sourceTree = "<group>";
-		};
-		AE45D8872239ECF2008B4EC2 /* TimeLineDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				AE45D8882239ECF2008B4EC2 /* TimeLineDemoUITests.m */,
-				AE45D88A2239ECF2008B4EC2 /* Info.plist */,
-			);
-			path = TimeLineDemoUITests;
 			sourceTree = "<group>";
 		};
 		AE45D8AC223A02B3008B4EC2 /* MVC-TimeLine */ = {
@@ -320,7 +294,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE45D87E2239ECF2008B4EC2 /* TimeLineDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,7 +301,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE45D8892239ECF2008B4EC2 /* TimeLineDemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
