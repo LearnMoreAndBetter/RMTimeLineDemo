@@ -1,0 +1,17 @@
+//
+//  TLPrefixHeader.pch
+//  TimeLineDemo
+//
+//  Created by Lin Wang on 2019/3/14.
+//  Copyright © 2019 Lin Wang. All rights reserved.
+//
+
+#ifndef TLPrefixHeader_pch
+#define TLPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "TLMacro.h"
+
+#endif /* TLPrefixHeader_pch */
